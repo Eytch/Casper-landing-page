@@ -1,13 +1,9 @@
 function HomePage() {
   return (
-    <div className="flex items-center justify-between p-8">
+    <div className="container mx-auto flex justify-between items-center">
       <div className="w-1/2 p-8">
-        <img
-          src="/path-to-your-logo.png"
-          alt="App Logo"
-          className="w-24 h-24 mb-4"
-        />
-        <h1 className="text-4xl font-bold mb-2">App Name</h1>
+        <img src="/App-Logo.webp" alt="JobTrackr" className="w-36 h-36 mb-4" />
+        <h1 className="text-4xl font-bold mb-2">Job Trackr</h1>
         <p className="text-lg mb-4">A brief description of your app.</p>
         <a
           href="/download"
