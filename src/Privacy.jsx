@@ -1,6 +1,7 @@
+/* eslint-disable react/no-unescaped-entities */
 function Privacy() {
   return (
-    <div className="container mx-auto justify-between items-center">
+    <div className="p-8 max-w-4xl mx-auto pt-10">
       <h1 className="text-3xl font-bold mb-4">Privacy Policy</h1>
       <p className="mb-4">
         This privacy policy applies to the JobTrackr app (hereby referred to as

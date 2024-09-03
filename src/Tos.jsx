@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 function Tos() {
   return (
-    <div className="p-8 max-w-4xl mx-auto">
+    <div className="p-8 max-w-4xl mx-auto pt-10">
       <h1 className="text-3xl font-bold mb-4">Terms of Service</h1>
       <p className="mb-4">
         These Terms of Service ("Terms") govern your use of the JobTrackr app
