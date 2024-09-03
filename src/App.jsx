@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 import HomePage from "./Homepage";
 import Download from "./Download";
 import Support from "./Support";
-import Tos from "./TOS";
+import Tos from "./Tos";
 import Privacy from "./Privacy";
 
 function App() {
