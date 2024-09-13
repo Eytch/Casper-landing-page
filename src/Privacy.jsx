@@ -33,17 +33,34 @@ function Privacy() {
         </a>
         .
       </p>
+      <p className="mb-4">
+        The Application also uses Google AdMob for serving ads. Google AdMob
+        collects and uses data to serve targeted ads and improve their services.
+        Google AdMob has its own Privacy Policy which you can review here:{" "}
+        <a
+          href="https://policies.google.com/privacy"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500"
+        >
+          Google AdMob Privacy Policy
+        </a>
+        .
+      </p>
 
       <h2 className="text-2xl font-semibold mb-2">Opt-Out Rights</h2>
       <p className="mb-4">
         Since no personal data is collected by the Application, there is no need
-        for an opt-out process.
+        for an opt-out process. However, you can opt out of personalized ads by
+        adjusting your device settings or visiting the respective privacy
+        policies of RevenueCat and Google AdMob.
       </p>
 
       <h2 className="text-2xl font-semibold mb-2">Data Retention Policy</h2>
       <p className="mb-4">
         The Service Provider does not retain any personal data as no data is
-        collected.
+        collected. However, RevenueCat and Google AdMob may retain data
+        according to their own privacy policies.
       </p>
 
       <h2 className="text-2xl font-semibold mb-2">Children</h2>
@@ -57,7 +74,8 @@ function Privacy() {
       <p className="mb-4">
         The Service Provider is committed to ensuring the security of the
         Application. Since no data is collected, there are no specific security
-        measures applied.
+        measures applied. Please refer to the privacy policies of RevenueCat and
+        Google AdMob for information on their security practices.
       </p>
 
       <h2 className="text-2xl font-semibold mb-2">Changes</h2>
