@@ -6,7 +6,6 @@ function Support() {
     email: "",
     message: "",
   });
-  const [status, setStatus] = useState("");
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -30,7 +29,6 @@ function Support() {
 
     // Reset form data
     setFormData({ name: "", email: "", message: "" });
-    setStatus("Your email client should now be open.");
   };
 
   return (
@@ -47,7 +45,7 @@ function Support() {
             name="name"
             value={formData.name}
             onChange={handleChange}
-            className="w-full border-gray-300 rounded-md"
+            className="w-full border border-gray-300 rounded-md"
             required
           />
         </div>
@@ -61,7 +59,7 @@ function Support() {
             name="email"
             value={formData.email}
             onChange={handleChange}
-            className="w-full border-gray-300 rounded-md"
+            className="w-full border border-gray-300 rounded-md"
             required
           />
         </div>
@@ -74,7 +72,7 @@ function Support() {
             name="message"
             value={formData.message}
             onChange={handleChange}
-            className="w-full border-gray-300 rounded-md"
+            className="w-full border border-gray-300 rounded-md"
             rows="4"
             required
           />
@@ -86,7 +84,6 @@ function Support() {
           Submit
         </button>
       </form>
-      {status && <p className="mt-4">{status}</p>}
     </div>
   );
 }
