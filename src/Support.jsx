@@ -32,39 +32,43 @@ function Support() {
   };
 
   return (
-    <div className="p-8 max-w-4xl mx-auto pt-10">
-      <h1 className="text-3xl font-bold mb-4">Support</h1>
+    <div className="p-8 max-w-2xl mx-auto pt-10 textce">
+      <div className=" flex justify-center mb-3">
+        <h1 className="text-5xl font-bold mb-4">Contact Us</h1>
+      </div>
       <form onSubmit={handleSubmit} className="space-y-4">
-        <div>
-          <label htmlFor="name" className="block text-lg font-semibold mb-2">
-            Name
-          </label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            value={formData.name}
-            onChange={handleChange}
-            className="w-full border border-gray-300 rounded-md"
-            required
-          />
+        <div className=" flex gap-5">
+          <div className=" w-1/2 flex flex-col gap-1">
+            <label htmlFor="name" className=" text-lg text-gray-600">
+              Name
+            </label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              value={formData.name}
+              onChange={handleChange}
+              className="w-full bg-white rounded-md p-2"
+              required
+            />
+          </div>
+          <div className=" w-1/2 flex flex-col gap-1">
+            <label htmlFor="email" className=" text-lg text-gray-600">
+              Email
+            </label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              value={formData.email}
+              onChange={handleChange}
+              className="w-full bg-white rounded-md p-2"
+              required
+            />
+          </div>
         </div>
-        <div>
-          <label htmlFor="email" className="block text-lg font-semibold mb-2">
-            Email
-          </label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            value={formData.email}
-            onChange={handleChange}
-            className="w-full border border-gray-300 rounded-md"
-            required
-          />
-        </div>
-        <div>
-          <label htmlFor="message" className="block text-lg font-semibold mb-2">
+        <div className="flex flex-col gap-1">
+          <label htmlFor="message" className=" text-lg text-gray-600">
             Message
           </label>
           <textarea
@@ -72,14 +76,15 @@ function Support() {
             name="message"
             value={formData.message}
             onChange={handleChange}
-            className="w-full border border-gray-300 rounded-md"
-            rows="4"
+            className="w-full bg-white rounded-md p-2"
+            rows="5"
+            placeholder="Your Message..."
             required
           />
         </div>
         <button
           type="submit"
-          className="bg-blue-500 text-white px-4 py-2 rounded-md"
+          className="w-full bg-black text-white px-4 py-2 rounded-md shadow-md"
         >
           Submit
         </button>

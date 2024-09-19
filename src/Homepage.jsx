@@ -1,23 +1,34 @@
 function HomePage() {
   return (
-    <div className="container mx-auto flex justify-between items-center">
-      <div className="w-1/2 p-8">
-        <img src="/App-Logo.webp" alt="JobTrackr" className="w-36 h-36 mb-4" />
-        <h1 className="text-4xl font-bold mb-2">Job Trackr</h1>
-        <p className="text-lg mb-4">A brief description of your app.</p>
-        <a
-          href="/download"
-          className="bg-blue-500 text-white px-4 py-2 rounded"
-        >
-          Download App
-        </a>
+    <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
+      <div className="md:w-1/2 p-8 flex-col text-center md:text-left">
+        <div className="flex justify-center align-middle md:justify-start">
+          <div className="w-36 mb-10">
+            <img
+              src="/App-Logo.webp"
+              className=" self-center"
+              alt="JobTrackr"
+            />
+          </div>
+        </div>
+        <h1 className="text-6xl font-extrabold mb-5">JobTrackr</h1>
+        <p className="text-lg mb-8 leading-loose font-light opacity-70">
+          Stay organized in your job search with Track Your Job
+          Applications—easily manage job details, track interviews, set
+          reminders, and store contacts all in one customizable app!
+        </p>
+        <div className="flex justify-center align-middle md:justify-start">
+          <div className=" w-52 ">
+            <a href="https://apps.apple.com/us/app/track-your-job-applications/id6642659608">
+              <img src="/app-store-download.webp" alt="JobTrackr" />
+            </a>
+          </div>
+        </div>
       </div>
-      <div className="w-1/2 p-8">
-        <img
-          src="/path-to-your-screenshot.png"
-          alt="App Screenshot"
-          className="w-full h-auto"
-        />
+      <div className="md:w-1/2  p-8 flex justify-center align-middle ">
+        <div className=" w-2/3">
+          <img src="/screenshot.webp" alt="App Screenshot" />
+        </div>
       </div>
     </div>
   );
