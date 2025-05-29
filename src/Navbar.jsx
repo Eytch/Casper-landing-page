@@ -15,7 +15,7 @@ function Navbar() {
         <Link to="/" className="text-2xl font-bold">
           <div className=" flex gap-2 justify-center align-middle">
             <img src="/App-Logo.webp" alt="JobTrackr" className="w-10" />
-            <h2 className=" self-center">JobTrackr</h2>
+            <h2 className=" self-center">Casper</h2>
           </div>
         </Link>
 

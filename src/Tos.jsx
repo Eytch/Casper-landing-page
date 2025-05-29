@@ -4,7 +4,7 @@ function Tos() {
     <div className="p-8 max-w-4xl mx-auto pt-10">
       <h1 className="text-3xl font-bold mb-4">Terms of Service</h1>
       <p className="mb-4">
-        These Terms of Service ("Terms") govern your use of the JobTrackr app
+        These Terms of Service ("Terms") govern your use of the Casper app
         (hereby referred to as "Application") provided by Ahmed Hassan (hereby
         referred to as "Service Provider"). By accessing or using the
         Application, you agree to be bound by these Terms.
@@ -28,17 +28,19 @@ function Tos() {
       <h2 className="text-2xl font-semibold mb-2">3. Use of the Application</h2>
       <p className="mb-4">
         You agree to use the Application in accordance with all applicable laws
-        and regulations. You are responsible for ensuring that your use of the
-        Application does not violate any laws or regulations.
+        and regulations. The Application is intended to help users identify dog
+        breeds using AI-based image analysis. It should not be used as a
+        substitute for professional veterinary advice or services.
       </p>
 
       <h2 className="text-2xl font-semibold mb-2">4. Intellectual Property</h2>
       <p className="mb-4">
         All content and materials available through the Application, including
-        but not limited to text, graphics, logos, and images, are the property
-        of the Service Provider and are protected by intellectual property laws.
-        You may not use, reproduce, or distribute any content from the
-        Application without prior written permission from the Service Provider.
+        but not limited to text, graphics, logos, images, and AI-generated
+        results, are the property of the Service Provider and are protected by
+        intellectual property laws. You may not use, reproduce, or distribute
+        any content from the Application without prior written permission from
+        the Service Provider.
       </p>
 
       <h2 className="text-2xl font-semibold mb-2">
@@ -46,8 +48,9 @@ function Tos() {
       </h2>
       <p className="mb-4">
         The Application is provided "AS IS" and "AS AVAILABLE" without any
-        warranties of any kind. The Service Provider does not warrant that the
-        Application will be uninterrupted or error-free.
+        warranties of any kind. The Service Provider does not guarantee the
+        accuracy or completeness of breed identifications and assumes no
+        responsibility for any decisions made based on the results.
       </p>
 
       <h2 className="text-2xl font-semibold mb-2">

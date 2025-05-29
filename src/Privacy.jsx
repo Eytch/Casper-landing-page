@@ -4,7 +4,7 @@ function Privacy() {
     <div className="p-8 max-w-4xl mx-auto pt-10">
       <h1 className="text-3xl font-bold mb-4">Privacy Policy</h1>
       <p className="mb-4">
-        This privacy policy applies to the JobTrackr app (hereby referred to as
+        This privacy policy applies to the Casper app (hereby referred to as
         "Application") for mobile devices that was created by Ahmed Hassan
         (hereby referred to as "Service Provider") as a Freemium service. This
         service is intended for use "AS IS".
@@ -33,34 +33,19 @@ function Privacy() {
         </a>
         .
       </p>
-      <p className="mb-4">
-        The Application also uses Google AdMob for serving ads. Google AdMob
-        collects and uses data to serve targeted ads and improve their services.
-        Google AdMob has its own Privacy Policy which you can review here:{" "}
-        <a
-          href="https://policies.google.com/privacy"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-500"
-        >
-          Google AdMob Privacy Policy
-        </a>
-        .
-      </p>
 
       <h2 className="text-2xl font-semibold mb-2">Opt-Out Rights</h2>
       <p className="mb-4">
         Since no personal data is collected by the Application, there is no need
-        for an opt-out process. However, you can opt out of personalized ads by
-        adjusting your device settings or visiting the respective privacy
-        policies of RevenueCat and Google AdMob.
+        for an opt-out process. However, you can review and manage your data
+        preferences directly through RevenueCat’s policies.
       </p>
 
       <h2 className="text-2xl font-semibold mb-2">Data Retention Policy</h2>
       <p className="mb-4">
         The Service Provider does not retain any personal data as no data is
-        collected. However, RevenueCat and Google AdMob may retain data
-        according to their own privacy policies.
+        collected. However, RevenueCat may retain data according to its own
+        privacy policies.
       </p>
 
       <h2 className="text-2xl font-semibold mb-2">Children</h2>
@@ -73,21 +58,21 @@ function Privacy() {
       <h2 className="text-2xl font-semibold mb-2">Security</h2>
       <p className="mb-4">
         The Service Provider is committed to ensuring the security of the
-        Application. Since no data is collected, there are no specific security
-        measures applied. Please refer to the privacy policies of RevenueCat and
-        Google AdMob for information on their security practices.
+        Application. Since no data is collected directly, there are no specific
+        security measures applied beyond those of RevenueCat. Please refer to
+        RevenueCat’s privacy policy for details on their security practices.
       </p>
 
       <h2 className="text-2xl font-semibold mb-2">Changes</h2>
       <p className="mb-4">
         This Privacy Policy may be updated from time to time for any reason. The
-        Service Provider will notify you of any changes to the Privacy Policy by
-        updating this page with the new Privacy Policy. You are advised to
-        consult this Privacy Policy regularly for any changes, as continued use
-        is deemed approval of all changes.
+        Service Provider will notify you of any changes by updating this page
+        with the new Privacy Policy. You are advised to consult this Privacy
+        Policy regularly for any changes, as continued use is deemed approval of
+        all changes.
       </p>
 
-      <p className="mb-4">This privacy policy is effective as of 09-03-2024</p>
+      <p className="mb-4">This privacy policy is effective as of 05-28-2025</p>
 
       <h2 className="text-2xl font-semibold mb-2">Your Consent</h2>
       <p className="mb-4">

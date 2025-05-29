@@ -11,11 +11,11 @@ function HomePage() {
             />
           </div>
         </div>
-        <h1 className="text-6xl font-extrabold mb-5">JobTrackr</h1>
+        <h1 className="text-6xl font-extrabold mb-5">Casper</h1>
         <p className="text-lg mb-8 leading-loose font-light opacity-70">
-          Stay organized in your job search with Track Your Job
-          Applications—easily manage job details, track interviews, set
-          reminders, and store contacts all in one customizable app!
+          Instantly identify any dog breed with a snap! Our AI-powered app helps
+          you recognize breeds, learn traits, and explore breed history—just by
+          taking a photo. Fast, fun, and perfect for every dog lover.
         </p>
         <div className="flex justify-center align-middle md:justify-start">
           <div className=" w-52 ">
