@@ -25,7 +25,7 @@ function Navbar() {
             Home
           </Link>
           <a
-            href="https://apps.apple.com/us/app/track-your-job-applications/id6642659608"
+            href="https://apps.apple.com/us/app/id6745744703"
             className=" self-center px-4 py-2"
           >
             Download App

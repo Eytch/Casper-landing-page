@@ -4,11 +4,7 @@ function HomePage() {
       <div className="md:w-1/2 p-8 flex-col text-center md:text-left">
         <div className="flex justify-center align-middle md:justify-start">
           <div className="w-36 mb-10">
-            <img
-              src="/App-Logo.webp"
-              className=" self-center"
-              alt="JobTrackr"
-            />
+            <img src="/App-Logo.webp" className=" self-center" alt="Casper" />
           </div>
         </div>
         <h1 className="text-6xl font-extrabold mb-5">Casper</h1>
@@ -19,15 +15,15 @@ function HomePage() {
         </p>
         <div className="flex justify-center align-middle md:justify-start">
           <div className=" w-52 ">
-            <a href="https://apps.apple.com/us/app/track-your-job-applications/id6642659608">
-              <img src="/app-store-download.webp" alt="JobTrackr" />
+            <a href="https://apps.apple.com/us/app/id6745744703">
+              <img src="/app-store-download.webp" alt="Casper" />
             </a>
           </div>
         </div>
       </div>
       <div className="md:w-1/2  p-8 flex justify-center align-middle ">
         <div className=" w-2/3">
-          <img src="/screenshot.webp" alt="App Screenshot" />
+          <img src="/Screenshot.webp" alt="App Screenshot" />
         </div>
       </div>
     </div>

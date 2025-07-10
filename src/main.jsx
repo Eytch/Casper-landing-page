@@ -5,7 +5,7 @@ import "./index.css";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <div className="bg-gradient-to-t from-blue-400 to-slate-100 h-screen md:overflow-hidden">
+    <div className="bg-gradient-to-t from-orange-400 to-slate-100 h-screen md:overflow-hidden">
       <App />
     </div>
   </StrictMode>
