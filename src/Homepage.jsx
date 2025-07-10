@@ -23,7 +23,7 @@ function HomePage() {
       </div>
       <div className="md:w-1/2  p-8 flex justify-center align-middle ">
         <div className=" w-2/3">
-          <img src="/Screenshot.webp" alt="App Screenshot" />
+          <img src="/WEBPScreenshot.webp" alt="App Screenshot" />
         </div>
       </div>
     </div>
